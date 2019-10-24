@@ -1,0 +1,19 @@
+.form{
+    width:50%;
+    margin:100px auto;
+}
+.formItem{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-left:10px;
+    width:130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
