@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from "dva"
 import { Button } from 'antd'
-import styles from '../components/input.css'
+import styles from './input.css'
 
 class List extends Component {
 

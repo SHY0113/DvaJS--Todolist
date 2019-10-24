@@ -42,8 +42,6 @@ export default {
             let templist = yield select(state => state.todo.list)
             let list = []
             list = list.concat(templist)
-            
-           //console.log(tempflag)
             yield put({ type: 'updateState', payload: { flag:false,list,toIndex:index } })
         },
         *update({payload:value},{call,put,select}){

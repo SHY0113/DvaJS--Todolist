@@ -76,7 +76,6 @@ class Add extends Component {
         this.props.form.validateFields((err, values) => {
             if (!err) {
                 //与后台进行数据交互
-                //console.log(values,654)
                 const list = {}
                 list.name = values.name
                 list.age = values.age
